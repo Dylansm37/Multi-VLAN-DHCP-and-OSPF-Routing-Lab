@@ -47,3 +47,4 @@ lab.pkt: Packet Tracer topology
 configs/: Router configuration files
 topology.png: Network topology
 troubleshooting.md: Troubleshooting notes
+
