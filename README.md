@@ -30,12 +30,6 @@ This lab demonstrates DHCP across multiple VLANs using Cisco routers, router-on-
 - 802.1Q VLAN trunking
 - Cisco Packet Tracer
 
-## Troubleshooting
-
-Initially, DHCP clients were unable to obtain IP addresses. The DHCP pools were configured, and the DHCP server was reachable over its directly connected link.
-
-Inspection of the DHCP server's routing table revealed that it lacked routes to the client VLANs. OSPF was configured on the DHCP server router so it could learn the remote networks and return DHCP replies to the clients.
-
 ## Verification
 
 The following commands were used to verify interface status, OSPF neighbors, routing tables, and DHCP operation.
